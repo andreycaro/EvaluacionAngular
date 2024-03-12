@@ -27,4 +27,46 @@ export class DataService {
 
     
   }
+
+  private Lismovies=[
+    {
+    name:'Intensamente 2',
+     Estreno:'25-05-2024',
+     genero:'Infantil',
+     image:'src/assets/images/Intensamente 2.jpg'
+   },
+   {
+    name:'Jumanji',
+     Estreno:'25-03-2024',
+     genero:'Accion y comedia',
+     image:'src/assets/images/Jumaji.jpg'
+   },
+   {
+    name:'Avengers',
+     Estreno:'25-04-2024',
+     genero:'Accion',
+     image:'src/assets/images/Avengers.jpg'
+   },
+
+   {
+    name:'Deapool 3',
+     Estreno:'25-03-2024',
+     genero:'Accion y comedia',
+     image:'deadpool-3.webp'
+   },
+   {
+    name:'El Justiciero 3',
+     Estreno:'25-04-2024',
+     genero:'Drama y Accion',
+     image:'src/assets/images/El Justiciero.jpg'
+   }
+  
+  ];
+
+
+   
+       get movies(){
+          return this.Lismovies;
+        }
+
 }
